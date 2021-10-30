@@ -29,7 +29,7 @@ export default class SearchBar extends React.Component {
             type="checkbox"
             checked={this.props.inStockOnly}
             onChange={this.handleInStockChange}
-          />{" "}
+          />
           Only show products in stock
         </p>
       </form>
